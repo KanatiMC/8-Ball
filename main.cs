@@ -8,7 +8,6 @@ class Program {
 		Console.WriteLine("What Would Like To Ask The Magic Eight Ball?");
     string readString = Console.ReadLine();
 		int randomizeInt = Program.randomNum(1) + Program.randomNum(1) + 2;
-			Console.WriteLine(randomizeInt.ToString());
 		if (randomizeInt == 1){
 			Console.WriteLine("You May Rely On It.");
 		}
